@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'rajdhani';
+    src: url(./assets/font/Rajdhani/Rajdhani-Medium.ttf);
+    src: url(./assets/font/Rajdhani/Rajdhani-Regular.ttf);
+    src: url(./assets/font/Rajdhani/Rajdhani-Bold.ttf);
+ }
+ @font-face {
+   font-family: 'space-grotesk';
+   src:url(./assets/font/Space_grotesk/static/SpaceGrotesk-Bold.ttf);
+   src:url(./assets/font/Space_grotesk/static/SpaceGrotesk-Medium.ttf);
+
+ }
+
+
+ * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+ .container {
+   width:80%;
+   margin:0 auto;
+
+
+ }
+ :root {
+    --yellow_color:#FFFF00;
+    --yellow_light:#F8F184;
+    --blue-color:#19567d;
+    --red_color:#B11313;
+    --body_bg:black;
+    --body_color:#0d0e09;
+    --text_color:#fff;
+
+ }
+ nav {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px 40px 40px ;
+    border: 1px solid #c4c4c4 ;
+ }
+ body{
+    background-color: var(--body_bg);
+    color:var(--text_color);
+    font-family: 'space-grotesk';
+
+    margin:0 auto;
+ }
+h1 ,button {
+    font-family: 'rajdhani';
+    font-weight: medium;
+ }
+ h2,h3,p {
+    font-family: 'space-grotesk';
+ }
+ h2 {
+    font-weight: bold;
+    font-size: 20px;
+ }
+ h3 {
+    font-weight: normal;
+    font-size: 22px;
+ }
+ h1 {
+    font-size:36px;
+ }
+
+header {
+    background-image: url(../assets/image/illustrations/batman-mystery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-color: var(--blue-color);
+}
+ nav ul {
+    list-style: none;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color:var(--text_color);
+
+ }
+ nav ul li a:hover {
+    color:var(--yellow_color);
+ }
+ /*design de la section batman au cinema , vilain , jlg ,alliee */
+
+ /*formulaire*/
+ .card-batman{
+    /* font-size: 100px !important; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+
