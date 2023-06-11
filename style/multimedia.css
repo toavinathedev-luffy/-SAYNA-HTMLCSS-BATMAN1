@@ -1,16 +1,13 @@
-#multimedia .slider-multimedia {
+#multimedia #slider-multimedia {
     display: flex;
     width:65%;
     margin:40px auto;
     flex-direction: row;
-
-
-
 }
-#multimedia .slider-image {
+#multimedia #slider-image {
     width: 100%;
 }
-#multimedia .slider-content{
+#multimedia #slider-content{
     padding: 12px;
     background-image:linear-gradient(to top,black,#c4c4c4);
 }
