@@ -4,13 +4,15 @@
     margin:40px auto;
     flex-direction: row;
 
+
+
 }
 #multimedia .slider-image {
     width: 100%;
 }
 #multimedia .slider-content{
     padding: 12px;
-    background-color: #727272;
+    background-image:linear-gradient(to top,black,#c4c4c4);
 }
 #multimedia p{
     font-size: 15px;
