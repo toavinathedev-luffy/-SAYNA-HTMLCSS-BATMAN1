@@ -12,6 +12,7 @@ form {
     display:flex;
     flex-direction: column;
     margin: 40 auto;
+    justify-content: space-around;
     align-content:baseline;
     align-items:center;
     background-image:linear-gradient(to bottom right,#c4c4c4 10%,black,var(--blue-color) 80%);
