@@ -15,8 +15,8 @@
             <title>Batman T4SU | Home </title>
         </head>
     <body>
-        <header class="hero-header">
-            <nav class="container">
+        <header >
+            <nav >
                 <a href="home.html"><img src="./assets/image/Logos/logohome.png" alt="C'est le logo du site"></a>
                 <ul class="navbar-menu">
                     <li><a href="./home.html">HOME</a></li>
@@ -34,14 +34,21 @@
                         <b>Il est batman</b>
                     </p>
                     <div class="cta">
-                        <button >
-                            <a href="#viewTheHeroes">VOIR LE HEROS</a>
-                        </button>
-                        <button>
-                            <a href="#vilain">LES ENNEMIES</a>
-                        </button>
+
+                            <a href="#viewTheHeroes">
+                                <button>
+                                    VOIR LE HEROS
+                                </button>
+                            </a>
+                            <a href="#vilain">
+                                <button>
+                                    LES ENNEMIES
+                                </button>
+                            </a>
+
                     </div>
                 </div>
+            </section>
                     <div class="social-media">
                         <img src="./assets/image/Logos/logo_bat_flèche.png" alt="arrow up">
                         <img src="./assets/image/Logos/icon_facebook.png" alt="icone pour se connecter à facebook">
@@ -53,12 +60,10 @@
                     alt="arrow down ">
 
 
-            </section>
+
        </header>
         <main>
-
-
-            <section id="ViewTheHeroes" class="container">
+            <section id="viewTheHeroes" class="container">
                 <div >
                     <h2>BATMAN AU CINEMA</h2>
                     <p>
@@ -153,8 +158,9 @@
                     de la Terre, ceux vers qui le monde entier se tourne lorsque les menaces
                     extraterrestres ou surnaturelles menacent son existence.
                 </p>
-                <img src="./assets/image/illustrations/justice-league.png" alt="">
+
             </section>
+            <img src="./assets/image/illustrations/justice-league.png" alt="">
             <section  class="container" id="multimedia">
                 <div id="slider-multimedia">
 
@@ -179,36 +185,44 @@
                     <img src="./assets/image/illustrations/Bathome_ba2.png" alt="video presentatif de batman">
                 </div>
             </section>
-            <h2>PRENONS CONTACT</h2>
+
             <form action="" method="get" id="contact-form">
-                <label for="email"> <h3>MON ADRESSE MAIL</h3></label><br>
-                <input type="email" name="email" id="email" placeholder="ton adresse mail" ><br>
+                <h2>PRENONS CONTACT</h2>
+                <div class="form-content">
+                   <div>
+                    <label for="email"> <h3>MON ADRESSE MAIL</h3></label><br>
+                    <input type="email" name="email" id="email" placeholder="ton adresse mail" ><br>
+                   </div>
 
-                <h3>NEWSLETTER</h3>
+                    <h3>NEWSLETTER</h3>
+                        <div>
+                            <label for="accept_actuality">
+                                En cochant cette case vous acceptez de recevoir l’actualité concernant les
+                                aventures de Batman :
+                            </label>
+                            <input type="checkbox" name="checkbox_actuality" id="accept_actuality"><br>
+                        </div>
 
-                <label for="accept_actuality">
-                    En cochant cette case vous acceptez de recevoir l’actualité concernant les
-                    aventures de Batman :
-                </label>
-                <input type="checkbox" name="checkbox_actuality" id="accept_actuality"><br>
-                <br>
-                <div>
-                    <label for="choice-frequencies">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</label>
-                    <span>
-                        <img src="./assets/image/Logos/icon_flèche_2.png" alt="arrow down for frequencies newsletter">
-                    </span>
+                    <div>
+                        <label for="choice-frequencies">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</label>
+                        <span>
+                            <img src="./assets/image/Logos/icon_flèche_2.png" alt="arrow down for frequencies newsletter">
+                        </span>
+                    </div>
+                    <div>
+                        <p>Souhaitez vous recevoir des news</p>
+                            <input type="button" value="film">
+                            <input type="button" value="Des comics">
+                            <input type="button" value="De tout">
+                    </div>
+
+                    <label for="commentaire"><h3>MESSAGE</h3></label>
+                    <textarea name="commentaire" id="commentaire" cols="30" rows="10" placeholder="Laissez des commentaires ici"></textarea>
                 </div>
-                <div>
-                    <p>Souhaitez vous recevoir des news</p>
-                    <a href="">film</a>
-                    <a href="">Comics</a>
-                    <a href="">De tout</a>
-                </div>
-
-                <label for="commentaire"><h3>MESSAGE</h3></label>
-                <textarea name="commentaire" id="commentaire" cols="30" rows="10" placeholder="Laissez des commentaires ici"></textarea>
-                <button type="submit">CONFIRMER</button>
+                <input type="submit" value="CONFIRMER">
             </form>
+        </main>
+        <footer class="container">
             <section class="citation">
                 <div>
                     <img src="./assets/image/Logos/icon_guillemets_1.png" alt="guilllemets de la citation">
@@ -227,8 +241,8 @@
                     <img src="./assets/image/Logos/icon_guillemets_2.png" alt="guilllemets de la citation">
                 </div>
             </section>
-        </main>
-        <footer>
+
+
             <img src="./assets/image/Logos/icon_WB.png" alt="" >
             <p>
                 Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves

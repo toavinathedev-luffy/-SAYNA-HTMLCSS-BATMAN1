@@ -17,10 +17,20 @@
     padding:0;
     box-sizing: border-box;
  }
- .container {
-   width:100%;
+ nav{
+   border:2px solid #c4c4c4 ;
+   border-top: 0 ;
+   border-left:0;
+   border-bottom :20px;
+   width:80%;
    margin:0 auto;
-
+ }
+  .container {
+   width:80%;
+   margin:0 auto;
+   border:2px solid #c4c4c4 ;
+   border-bottom: 0 ;
+   border-top: 0 ;
 
  }
  :root {
