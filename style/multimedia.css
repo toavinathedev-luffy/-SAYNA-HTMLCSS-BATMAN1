@@ -1,0 +1,17 @@
+#multimedia .slider-multimedia {
+    display: flex;
+    width:65%;
+    margin:40px auto;
+    flex-direction: row;
+
+}
+#multimedia .slider-image {
+    width: 100%;
+}
+#multimedia .slider-content{
+    padding: 12px;
+    background-color: #727272;
+}
+#multimedia p{
+    font-size: 15px;
+}

@@ -1,0 +1,16 @@
+.batman-personnage {
+    display: flex;
+    justify-content: space-between;
+}
+#batman-cinema .personnage-info{
+    text-align: center;
+}
+#batman-cinema .description,#batman-justice-league .description{
+    margin-bottom: 40px;    width: 80%;
+    text-align: justify;    font-style: 21px;
+}
+#batman-cinema .description,#batman-justice-league .titre{
+    margin-bottom: 40%;font-size: 21px;
+    text-align: justify;
+    width: 80%;
+}

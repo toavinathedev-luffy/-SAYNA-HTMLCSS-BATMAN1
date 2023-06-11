@@ -1,12 +1,27 @@
 @font-face {
     font-family: 'rajdhani';
-    src: url();
+    src: url(./assets/font/Rajdhani/Rajdhani-Medium.ttf);
+    src: url(./assets/font/Rajdhani/Rajdhani-Regular.ttf);
+    src: url(./assets/font/Rajdhani/Rajdhani-Bold.ttf);
  }
+ @font-face {
+   font-family: 'space-grotesk';
+   src:url(./assets/font/Space_grotesk/static/SpaceGrotesk-Bold.ttf);
+   src:url(./assets/font/Space_grotesk/static/SpaceGrotesk-Medium.ttf);
+
+ }
+
 
  * {
     margin:0;
     padding:0;
     box-sizing: border-box;
+ }
+ .container {
+   width:80%;
+   margin:0 auto;
+
+
  }
  :root {
     --yellow_color:#FFFF00;
@@ -29,12 +44,10 @@
     background-color: var(--body_bg);
     color:var(--text_color);
     font-family: 'space-grotesk';
-    /*width:80%;*/
+
     margin:0 auto;
  }
-
-
- h1 ,button {
+h1 ,button {
     font-family: 'rajdhani';
     font-weight: medium;
  }
@@ -52,23 +65,15 @@
  h1 {
     font-size:36px;
  }
- /*
- buttons cta
-    .container .cta button {
-       background-color: #eddebf;
-       opacity: 0.4;
-    }
-    */
 
- .hero-header {
-    background-image: url(./assets/image/illustrations/Bathome1.png);
+header {
+    background-image: url(../assets/image/illustrations/batman-mystery.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
     background-color: var(--blue-color);
-
- }
- ul {
+}
+ nav ul {
     list-style: none;
  }
  nav ul li a{
@@ -88,4 +93,5 @@
     flex-direction: row;
     justify-content: space-around;
  }
+
 
