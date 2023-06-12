@@ -17,20 +17,14 @@
     padding:0;
     box-sizing: border-box;
  }
- nav{
-   border:2px solid #c4c4c4 ;
-   border-top: 0 ;
-   border-left:0;
-   border-bottom :20px;
 
-   margin:0 auto;
- }
   .container {
    width:80%;
    margin:0 auto;
    border:2px solid #c4c4c4 ;
-   border-bottom: 0 ;
-   border-top: 0 ;
+   border-bottom:0 ;
+   border-top: 0;
+
 
  }
  :root {
@@ -43,12 +37,16 @@
     --text_color:#fff;
 
  }
+ p.decoration-down{
+   background-image: url(../assets/image/Logos/flèche_down_header.png)
+ }
  nav {
     display:flex;
     align-items:center;
     justify-content:space-between;
     padding: 20px 40px 40px ;
-    border: 1px solid #c4c4c4 ;
+    border: 1px solid rgba(89, 92, 94, 0.014) ;
+    border-top:0;
  }
  body{
     background-color: var(--body_bg);
@@ -82,6 +80,7 @@ header {
     background-size: cover;
     height: 800px;
     background-color: var(--blue-color);
+    margin:0 auto;
 }
  nav ul {
     list-style: none;
@@ -110,11 +109,14 @@ header {
    align-items:center;
    align-content:center;
    margin:0 auto;
-   padding:20%;
+   padding:15%;
    text-align: justify;
-   height:100%;
+   height:85%;
    width:80%;
    justify-content: center;
 
+}
+a {
+   text-decoration: none;
 }
 
