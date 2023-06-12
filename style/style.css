@@ -16,6 +16,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+
  }
 
   .container {
@@ -24,6 +25,7 @@
    border:2px solid #c4c4c4 ;
    border-bottom:0 ;
    border-top: 0;
+
 
 
  }
@@ -37,9 +39,7 @@
     --text_color:#fff;
 
  }
- p.decoration-down{
-   background-image: url(../assets/image/Logos/flèche_down_header.png)
- }
+
  nav {
     display:flex;
     align-items:center;
@@ -47,6 +47,7 @@
     padding: 20px 40px 40px ;
     border: 1px solid rgba(89, 92, 94, 0.014) ;
     border-top:0;
+
  }
  body{
     background-color: var(--body_bg);
@@ -74,12 +75,13 @@ h1 ,button {
     font-size:36px;
  }
 
-header {
-    background-image: url(../assets/image/illustrations/batman-mystery.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    background-color: var(--blue-color);
+#hero{
+   background-image: url(../assets/image/illustrations/batman-mystery.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 800px;
+   background-position: top center;
+   background-color: var(--blue-color);
     margin:0 auto;
 }
  nav ul {
@@ -109,20 +111,26 @@ header {
    align-items:center;
    align-content:center;
    margin:0 auto;
-   padding:15%;
+   padding:25%;
    text-align: justify;
-   height:85%;
-   width:80%;
+
+
    justify-content: center;
 
 }
-.social-icons{
+picture.social-icons {
+
+
    display:flex;
-   align-items: end;
-   align-content: end;
    flex-direction: column;
-   justify-content: space-around;
-   gap: 15px;
+   align-items: center;
+   gap:10px;
+   position:fixed;
+   right:325px;
+   top:80px;
 
 }
+
+
+
 
