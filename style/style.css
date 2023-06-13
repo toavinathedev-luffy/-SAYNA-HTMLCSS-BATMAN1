@@ -37,6 +37,8 @@
     --body_bg:black;
     --body_color:#0d0e09;
     --text_color:#fff;
+    --gradient-white:#eddebf9a;
+    --gradient-red:#89000959;
 
  }
 
@@ -80,6 +82,7 @@ h1 ,button {
    background-repeat: no-repeat;
    background-size: cover;
    height: 800px;
+   gap:15px;
    background-position: top center;
    background-color: var(--blue-color);
     margin:0 auto;
@@ -120,17 +123,33 @@ h1 ,button {
 }
 picture.social-icons {
 
-
+   margin-left:1200px;
    display:flex;
    flex-direction: column;
    align-items: center;
+
    gap:10px;
    position:fixed;
-   right:325px;
-   top:80px;
+
 
 }
 
+input[type="button"]{
+   padding:5px;
+   margin:auto;
+}
+button {
+   color:#fff;
+   font-size: 22px;
+   padding: 5px 25px;
+   background: linear-gradient(80deg,var(--gradient-white),var(--gradient-red));
+   margin:20px;
+   cursor:pointer;
 
+}
 
+button:hover,button:active {
 
+   background: linear-gradient(80deg,#eddebf,#890009);
+
+}

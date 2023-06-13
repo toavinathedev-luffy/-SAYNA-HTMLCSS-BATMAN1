@@ -1,3 +1,26 @@
-#guillemet1{
-    position: relative;
+@font-face {
+    font-family: 'rajdhani';
+    src: url(./assets/font/Rajdhani/Rajdhani-Medium.ttf);
+    src: url(./assets/font/Rajdhani/Rajdhani-Regular.ttf);
+    src: url(./assets/font/Rajdhani/Rajdhani-Bold.ttf);
+ }
+#guillemet-open{
+   margin-left:10px;
+}
+#citation{
+   margin: 90px 0;
+
+}
+blockquote {
+    text-align:center;
+    width:50%;
+    margin:0 auto;
+}
+cite {
+    padding-top:30px;
+    font-size: 14px;
+    font-family: 'rajhani';
+}
+#guillemet-close{
+    float: right;
 }

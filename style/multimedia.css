@@ -14,3 +14,19 @@
 #multimedia p{
     font-size: 15px;
 }
+picture.card-batman figure img{
+    margin-top:15px; margin-bottom: 15px;
+    width: 75%;
+}
+picture.card-batman figure img:hover{
+    margin-top:15px; margin-bottom: 15px;
+    width: 100%;
+}
+.social-icons a img{
+    text-decoration: none;
+    width:15px;
+}
+.social-icons img{
+    text-decoration: none;
+    width:80px;
+}
